@@ -1,4 +1,7 @@
 # myjavaprojects
+
+kafka:
+
 java workspace
 https://www.sourcecodeexamples.net/2024/05/spring-boot-microservices-with-apache-kafka-example.html
 
@@ -16,3 +19,7 @@ docker run -d --net=kafka-net --name=kafka -p 9092:9092 KAFKA_ZOOKEEPER_CONNECT=
   
   for UI metrics:
  docker run -d --net=kafka-net -p 9000:9000 --name kafdrop -e KAFKA_BROKERCONNECT=kafka:29092 -e JVM_OPTS="-Xms32M -Xmx64M" obsidiandynamics/kafdrop
+
+
+rabbitmq:
+https://rameshfadatare.medium.com/spring-boot-microservices-with-rabbitmq-example-92a38cbe08fc
